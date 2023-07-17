@@ -1,0 +1,14 @@
+<div>
+  <p id="notice"><%= flash[:notice] %></p>
+</div>
+
+
+<p style="display:inline"><strong style="display:inline">Title: </strong></p><p style="display:inline"><%= @list.title %></p>
+
+<br><br><br>
+
+<p style="display:inline"><strong style="display:inline">Body:</strong></p><p style="display:inline"><%= @list.body %></p>
+
+<br><br><br>
+
+<%= link_to "Edit", edit_list_path(@list.id) -%><p style="display:inline">｜</p><a href="/lists" style="display:inline">Back</a>

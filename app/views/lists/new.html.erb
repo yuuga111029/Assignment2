@@ -1,0 +1,42 @@
+
+
+
+
+<!--<div id="error_explanation">-->
+  <!-- if @list.errors.any? %>-->
+  <!--  <h2>< @list.errors.count %> errors prohibited this book from being saved:</h2>-->
+  <!--  <ul>-->
+  <!--     @list.errors.full_messages.each do |message| %>-->
+  <!--      <li> message %></li>-->
+  <!--     end %>-->
+  <!--  </ul>-->
+  <!-- end %>-->
+<!--</div>-->
+
+<!-- form_withにオプション追記 -->
+<!-- form_with model: @list, url: '/lists', method: :post do |f| %>-->
+
+<!--<div class="field">-->
+<!--  <div class="field_with_errors">-->
+<!--    <label for="book_title">Title</label>-->
+<!--  </div>-->
+<!--  <div class="field_with_errors">-->
+<!--     f.text_field :title %>-->
+<!--  </div>-->
+
+<!--  <br><br>-->
+
+<!--  <div class="field_with_errors">-->
+<!--    <label for="book_body">Body</label>-->
+<!--  </div>-->
+<!--  <div class="field_with_errors">-->
+<!--     f.text_area :body %>-->
+<!--  </div>-->
+
+<!--</div>-->
+
+<!--  <br><br>-->
+
+<!--<div class="actions">-->
+<!--   f.submit 'Create Book' %>-->
+<!--</div>-->
