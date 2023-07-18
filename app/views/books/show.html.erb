@@ -1,0 +1,13 @@
+<div>
+  <p id="notice"><%= flash[:notice] %></p>
+</div>
+
+<p style="display:inline"><strong style="display:inline">Title: </strong></p><p style="display:inline"><%= @book.title %></p>
+
+<br><br><br>
+
+<p style="display:inline"><strong style="display:inline">Body:</strong></p><p style="display:inline"><%= @book.body %></p>
+
+<br><br><br>
+
+<%= link_to "Edit", edit_book_path(@book.id) -%><p style="display:inline">｜</p><a href="/books" style="display:inline">Back</a>
